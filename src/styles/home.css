@@ -1,0 +1,209 @@
+/* Home page specific styles */
+
+/* Hero Section */
+.hero {
+    background: #ff6b6b;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero-text {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+/* Stats Bar */
+.stats-bar {
+    background: white;
+    padding: 40px 0;
+    margin: 40px 0;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    text-align: center;
+}
+
+.stat-item h3 {
+    color: #ff6b6b;
+    font-size: 2em;
+}
+
+/* Video Section */
+.video-section {
+    padding: 60px 0;
+    background: white;
+}
+
+.video-container {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Featured Cakes */
+.featured-cakes {
+    padding: 60px 0;
+    background: #f9f9f9;
+}
+
+.cake-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.cake-card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.cake-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.cake-card-content {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Special Offers */
+.special-offers {
+    background: white;
+    padding: 60px 0;
+}
+
+.offers-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.offer-card {
+    background: #f8f8f8;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Testimonials */
+.testimonials {
+    padding: 60px 0;
+    background: #f9f9f9;
+}
+
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.testimonial-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Why Choose Us */
+.why-choose-us {
+    background: white;
+    padding: 60px 0;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.feature-card {
+    text-align: center;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+}
+
+/* CTA Section */
+.cta-section {
+    background: #ff6b6b;
+    color: white;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+/* Button Variants */
+.btn-primary {
+    background: white;
+    color: #ff6b6b;
+}
+
+.btn-secondary {
+    background: transparent;
+    border: 2px solid white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .cake-grid,
+    .offers-grid,
+    .testimonials-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .features-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .hero-buttons,
+    .cta-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .stats-grid,
+    .features-grid {
+        grid-template-columns: 1fr;
+    }
+}

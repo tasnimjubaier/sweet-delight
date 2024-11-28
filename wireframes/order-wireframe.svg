@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="900" xmlns="http://www.w3.org/2000/svg">
+    <!-- Order Page Layout -->
+    <!-- Navigation -->
+    <rect x="0" y="0" width="800" height="60" fill="#f0f0f0"/>
+    <text x="400" y="35" text-anchor="middle" font-family="Arial">Navigation Bar</text>
+    
+    <!-- Progress Steps -->
+    <rect x="50" y="80" width="700" height="60" fill="#ffffff" stroke="#000000"/>
+    <text x="400" y="115" text-anchor="middle">Order Progress Steps</text>
+    
+    <!-- Main Content Area -->
+    <rect x="50" y="160" width="500" height="600" fill="#ffffff" stroke="#000000"/>
+    
+    <!-- Form Sections -->
+    <rect x="70" y="180" width="460" height="150" fill="#f0f0f0"/>
+    <text x="300" y="255" text-anchor="middle">Customer Details Form</text>
+    
+    <rect x="70" y="350" width="460" height="150" fill="#f0f0f0"/>
+    <text x="300" y="425" text-anchor="middle">Cake Selection</text>
+    
+    <rect x="70" y="520" width="460" height="150" fill="#f0f0f0"/>
+    <text x="300" y="595" text-anchor="middle">Delivery Details</text>
+    
+    <!-- Order Summary Sidebar -->
+    <rect x="570" y="160" width="180" height="600" fill="#ffffff" stroke="#000000"/>
+    <text x="660" y="190" text-anchor="middle" font-weight="bold">Order Summary</text>
+    
+    <!-- Payment Section -->
+    <rect x="50" y="780" width="700" height="100" fill="#ffffff" stroke="#000000"/>
+    <text x="400" y="830" text-anchor="middle">Payment Section</text>
+</svg>

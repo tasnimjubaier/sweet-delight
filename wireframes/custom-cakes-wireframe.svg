@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+    <!-- Custom Cake Builder Page Layout -->
+    <!-- Navigation -->
+    <rect x="0" y="0" width="800" height="60" fill="#f0f0f0"/>
+    <text x="400" y="35" text-anchor="middle" font-family="Arial">Navigation Bar</text>
+    
+    <!-- Two Column Layout -->
+    <rect x="50" y="80" width="350" height="450" fill="#ffffff" stroke="#000000"/>
+    <rect x="420" y="80" width="350" height="450" fill="#ffffff" stroke="#000000"/>
+    
+    <!-- Left Column - Options -->
+    <text x="225" y="110" text-anchor="middle" font-family="Arial" font-weight="bold">Customization Options</text>
+    <rect x="70" y="130" width="310" height="80" fill="#f0f0f0"/>
+    <text x="225" y="170" text-anchor="middle">Size Selection</text>
+    
+    <rect x="70" y="220" width="310" height="80" fill="#f0f0f0"/>
+    <text x="225" y="260" text-anchor="middle">Flavor Selection</text>
+    
+    <rect x="70" y="310" width="310" height="80" fill="#f0f0f0"/>
+    <text x="225" y="350" text-anchor="middle">Filling Selection</text>
+    
+    <rect x="70" y="400" width="310" height="80" fill="#f0f0f0"/>
+    <text x="225" y="440" text-anchor="middle">Design Options</text>
+    
+    <!-- Right Column - Preview -->
+    <text x="595" y="110" text-anchor="middle" font-family="Arial" font-weight="bold">Preview</text>
+    <rect x="440" y="130" width="310" height="250" fill="#f0f0f0"/>
+    <text x="595" y="260" text-anchor="middle">Cake Preview</text>
+    
+    <rect x="440" y="390" width="310" height="100" fill="#f0f0f0"/>
+    <text x="595" y="440" text-anchor="middle">Price Calculator</text>
+</svg>

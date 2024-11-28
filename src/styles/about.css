@@ -1,0 +1,230 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Navigation */
+nav {
+    background: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 15px 0;
+    margin-bottom: 30px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover,
+nav a.active {
+    background: #ff6b6b;
+    color: white;
+}
+
+/* About Section */
+.about-section {
+    background: #ff6b6b;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    margin-bottom: 40px;
+}
+
+.section-text h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Our Story Section */
+.our-story {
+    padding: 60px 0;
+}
+
+.story-content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.story-text {
+    flex: 1;
+}
+
+.story-text p {
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+.story-image {
+    flex: 1;
+}
+
+.story-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Our Values Section */
+.our-values {
+    background: white;
+    padding: 60px 0;
+}
+
+.values-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.value-card {
+    text-align: center;
+    padding: 30px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.value-card h3 {
+    color: #ff6b6b;
+    margin-bottom: 15px;
+}
+
+/* Team Section */
+.our-team {
+    padding: 60px 0;
+}
+
+.team-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.team-member {
+    text-align: center;
+}
+
+.team-member img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+/* Kitchen Section */
+.our-kitchen {
+    background: white;
+    padding: 60px 0;
+}
+
+.kitchen-content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.kitchen-image {
+    flex: 1;
+}
+
+.kitchen-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.kitchen-text {
+    flex: 1;
+}
+
+.kitchen-features {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.kitchen-features li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.kitchen-features li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #ff6b6b;
+}
+
+/* Section Headers */
+h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .story-content,
+    .kitchen-content {
+        flex-direction: column;
+    }
+
+    .values-content,
+    .team-content {
+        grid-template-columns: 1fr;
+    }
+
+    .section-text h1 {
+        font-size: 2em;
+    }
+}

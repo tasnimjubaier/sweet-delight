@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+  <html lang=\"en\">
+  <head>
+      <meta charset=\"UTF-8\">
+      <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
+      <title>Order Cakes - Sweet Delights</title>
+      <link rel=\"stylesheet\" href=\"../styles/order.css\">
+  </head>
+  <body>
+      <header>
+          <nav class=\"main-nav\">
+              <ul>
+                  <li><a href=\"index.html\">Home</a></li>
+                  <li><a href=\"custom-cakes.html\">Custom Cakes</a></li>
+                  <li><a href=\"delivery.html\">Delivery</a></li>
+                  <li><a href=\"order.html\" class=\"active\">Order Now</a></li>
+                  <li><a href=\"about.html\">About Us</a></li>
+              </ul>
+          </nav>
+      </header>
+  
+      <main>
+          <h1>Available Cakes to Order</h1>
+  
+          <div class=\"cake-grid\">
+              <div class=\"cake-card\">
+                  <div class=\"cake-image\">
+                      <img src=\"../assets/images/cake1.jpg\" alt=\"Birthday Cake\">
+                  </div>
+                  <div class=\"cake-content\">
+                      <h3>Classic Birthday Cake</h3>
+                      <p>Classic vanilla cake with buttercream frosting</p>
+                      <p class=\"price\">£35.00</p>
+                      <button class=\"btn\" onclick=\"window.location.href='create-order.html?cake=birthday&price=35'\">Order Now</button>
+                  </div>
+              </div>
+  
+              <div class=\"cake-card\">
+                  <div class=\"cake-image\">
+                      <img src=\"../assets/images/cake2.jpg\" alt=\"Chocolate Cake\">
+                  </div>
+                  <div class=\"cake-content\">
+                      <h3>Double Chocolate</h3>
+                      <p>Rich chocolate cake with ganache finish</p>
+                      <p class=\"price\">£40.00</p>
+                      <button class=\"btn\" onclick=\"window.location.href='create-order.html?cake=chocolate&price=40'\">Order Now</button>
+                  </div>
+              </div>
+  
+              <div class=\"cake-card\">
+                  <div class=\"cake-image\">
+                      <img src=\"../assets/images/cake3.jpg\" alt=\"Wedding Cake\">
+                  </div>
+                  <div class=\"cake-content\">
+                      <h3>Wedding Cake</h3>
+                      <p>Elegant three-tier wedding cake</p>
+                      <p class=\"price\">£350.00</p>
+                      <button class=\"btn\" onclick=\"window.location.href='create-order.html?cake=wedding&price=350'\">Order Now</button>
+                  </div>
+              </div>
+  
+              <div class=\"cake-card\">
+                  <div class=\"cake-image\">
+                      <img src=\"../assets/images/cake4.jpg\" alt=\"Red Velvet\">
+                  </div>
+                  <div class=\"cake-content\">
+                      <h3>Red Velvet</h3>
+                      <p>Classic red velvet with cream cheese frosting</p>
+                      <p class=\"price\">£45.00</p>
+                      <button class=\"btn\" onclick=\"window.location.href='create-order.html?cake=redvelvet&price=45'\">Order Now</button>
+                  </div>
+              </div>
+  
+              <div class=\"cake-card\">
+                  <div class=\"cake-image\">
+                      <img src=\"../assets/images/cake5.jpg\" alt=\"Fruit Cake\">
+                  </div>
+                  <div class=\"cake-content\">
+                      <h3>Fruit Cake</h3>
+                      <p>Rich fruit cake with mixed nuts</p>
+                      <p class=\"price\">£42.00</p>
+                      <button class=\"btn\" onclick=\"window.location.href='create-order.html?cake=fruit&price=42'\">Order Now</button>
+                  </div>
+              </div>
+  
+              <div class=\"cake-card\">
+                  <div class=\"cake-image\">
+                      <img src=\"../assets/images/cake6.jpg\" alt=\"Special Occasion\">
+                  </div>
+                  <div class=\"cake-content\">
+                      <h3>Special Occasion</h3>
+                      <p>Custom design for any celebration</p>
+                      <p class=\"price\">From £50.00</p>
+                      <button class=\"btn\" onclick=\"window.location.href='create-order.html?cake=special&price=50'\">Order Now</button>
+                  </div>
+              </div>
+          </div>
+      </main>
+  
+      <footer>
+          <p>This is a demonstration website developed as an educational exercise.</p>
+          <p>Content from Wikipedia used under Creative Commons License</p>
+      </footer>
+  
+      <script src=\"../scripts/main.js\"></script>
+  </body>
+  </html>

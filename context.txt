@@ -1,0 +1,101 @@
+PROJECT CONTEXT: SWEET DELIGHTS CAKE SHOP WEBSITE
+
+PROJECT OVERVIEW:
+- This is a coursework assignment for module CSI_5_WET (Web Technologies)
+- The project is an online cake shop website focusing on cakes and delivery services
+- The website is being developed in the directory: /Users/tasnimj/Master/Products/sweet-delights
+
+CURRENT PROJECT STATE:
+
+1. Directory Structure:
+/sweet-delights/
+├── assets/
+│   ├── css/
+│   │   ├── style.css (common styles)
+│   │   └── pages/
+│   │       └── home.css (home page specific styles)
+│   ├── js/
+│   │   └── main.js
+│   └── images/
+├── index.html
+├── cakes.html
+├── custom-cakes.html
+├── delivery.html
+├── order.html
+├── about.html
+
+2. Implemented Pages:
+- index.html (Home page) - Fully structured with multiple sections:
+  * Hero section
+  * Stats bar
+  * Video section
+  * Featured cakes
+  * Special offers
+  * Testimonials
+  * Why Choose Us
+  * CTA section
+
+3. CSS Implementation:
+- Separated CSS into multiple files:
+  * style.css - Common styles (navigation, typography, buttons, footer)
+  * pages/home.css - Home page specific styles
+- More page-specific CSS files need to be created
+
+4. Current Tasks Completed:
+- Basic project structure setup
+- Home page HTML structure
+- Navigation implementation
+- Common CSS styles
+- Home page specific styles
+- Responsive design foundations
+
+5. Pending Tasks:
+- Content implementation for other pages
+- CSS for other pages (cakes, custom-cakes, delivery, order, about)
+- JavaScript functionality
+- Image assets
+- Video content
+- Form implementations
+- Interactive features
+
+6. Design Decisions:
+- Color scheme: Primary color #ff6b6b
+- Clean, modern layout
+- Responsive design
+- Separated CSS for better maintenance
+- Focus on user experience and clear navigation
+
+7. Project Requirements (from assignment):
+- 4-6 pages (currently have 6 pages planned)
+- Template-based development
+- Interactive features
+- Logical navigation
+- Media integration (images, videos, audio where appropriate)
+- JavaScript features
+
+8. Current Focus:
+- Implementing page-specific styles
+- Need to develop content and styling for remaining pages
+- Need to add interactive features with JavaScript
+
+9. Next Steps:
+- Create CSS files for remaining pages
+- Add content to remaining pages
+- Implement JavaScript functionality
+- Add media content
+- Test responsive design
+- Validate HTML and CSS
+
+10. Project Specifics:
+- Theme: Online Cake Shop
+- Focus: Custom Cakes and Delivery
+- Target Audience: Customers looking for custom cakes and delivery services
+
+This context represents the current state of the project as of the last chat interaction. The project structure is set up, and the home page is the most developed page with both HTML structure and CSS styling implemented. The next major task is to develop the remaining pages with their specific styles and functionalities.
+
+NOTES:
+- The assignment specification PDF is in the root folder
+- All page templates are created but need content
+- CSS architecture is set up for modular development
+- Basic responsive design is implemented
+- Navigation system is in place and working

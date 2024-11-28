@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Cakes - Sweet Delights</title>
+    <link rel="stylesheet" href="../styles/custom-cakes.css">
+</head>
+<body>
+    <header>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="order.html">Order Now</a></li>
+                <li><a href="custom-cakes.html">Custom Cakes</a></li>
+                <li><a href="delivery.html">Delivery</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Design Your Dream Cake</h1>
+
+        <div class="custom-grid">
+            <div class="custom-card">
+                <h2>Choose Your Size</h2>
+                <div class="options-container">
+                    <select id="cake-size" class="cake-option">
+                        <option value="">Select Size</option>
+                        <option value="6">6 inch (serves 8-10)</option>
+                        <option value="8">8 inch (serves 12-15)</option>
+                        <option value="10">10 inch (serves 20-25)</option>
+                        <option value="12">12 inch (serves 30-35)</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="custom-card">
+                <h2>Select Your Flavor</h2>
+                <div class="options-container">
+                    <select id="cake-flavor" class="cake-option">
+                        <option value="">Select Flavor</option>
+                        <option value="vanilla">Vanilla</option>
+                        <option value="chocolate">Chocolate</option>
+                        <option value="redvelvet">Red Velvet</option>
+                        <option value="carrot">Carrot</option>
+                        <option value="lemon">Lemon</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="custom-card">
+                <h2>Choose Your Filling</h2>
+                <div class="options-container">
+                    <select id="cake-filling" class="cake-option">
+                        <option value="">Select Filling</option>
+                        <option value="vanilla-cream">Vanilla Cream</option>
+                        <option value="chocolate-ganache">Chocolate Ganache</option>
+                        <option value="fruit">Fresh Fruit</option>
+                        <option value="caramel">Caramel</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="custom-card">
+                <h2>Select Your Frosting</h2>
+                <div class="options-container">
+                    <select id="cake-frosting" class="cake-option">
+                        <option value="">Select Frosting</option>
+                        <option value="buttercream">Buttercream</option>
+                        <option value="fondant">Fondant</option>
+                        <option value="whipped">Whipped Cream</option>
+                        <option value="cream-cheese">Cream Cheese</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="preview-section">
+            <div class="preview-container">
+                <h2>Your Custom Cake</h2>
+                <div id="cake-preview" class="cake-preview">
+                    <!-- Preview will be updated via JavaScript -->
+                    Preview will appear here
+                </div>
+                <div class="price-display">
+                    <p>Estimated Price: <span id="total-price">£0.00</span></p>
+                </div>
+                <button class="btn order-btn" onclick="proceedToOrder()">Proceed to Order</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>This is a demonstration website developed as an educational exercise.</p>
+        <p>Content from Wikipedia used under Creative Commons License</p>
+    </footer>
+
+    <script src="../scripts/custom-cakes.js"></script>
+</body>
+</html>

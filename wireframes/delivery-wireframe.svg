@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="800" xmlns="http://www.w3.org/2000/svg">
+    <!-- Delivery Page Layout -->
+    <!-- Navigation -->
+    <rect x="0" y="0" width="800" height="60" fill="#f0f0f0"/>
+    <text x="400" y="35" text-anchor="middle" font-family="Arial">Navigation Bar</text>
+    
+    <!-- Map Section -->
+    <rect x="50" y="80" width="700" height="300" fill="#ffffff" stroke="#000000"/>
+    <text x="400" y="230" text-anchor="middle">Delivery Zones Map</text>
+    
+    <!-- Time Slots -->
+    <rect x="50" y="400" width="700" height="150" fill="#ffffff" stroke="#000000"/>
+    <text x="400" y="475" text-anchor="middle">Delivery Time Slots</text>
+    
+    <!-- Pricing Table -->
+    <rect x="50" y="570" width="700" height="100" fill="#ffffff" stroke="#000000"/>
+    <text x="400" y="620" text-anchor="middle">Delivery Pricing Table</text>
+    
+    <!-- FAQ Section -->
+    <rect x="50" y="690" width="700" height="80" fill="#ffffff" stroke="#000000"/>
+    <text x="400" y="730" text-anchor="middle">FAQ Section</text>
+</svg>
