@@ -7,22 +7,6 @@ PROJECT OVERVIEW:
 
 CURRENT PROJECT STATE:
 
-1. Directory Structure:
-/sweet-delights/
-├── assets/
-│   ├── css/
-│   │   ├── style.css (common styles)
-│   │   └── pages/
-│   │       └── home.css (home page specific styles)
-│   ├── js/
-│   │   └── main.js
-│   └── images/
-├── index.html
-├── cakes.html
-├── custom-cakes.html
-├── delivery.html
-├── order.html
-├── about.html
 
 2. Implemented Pages:
 - index.html (Home page) - Fully structured with multiple sections:

@@ -52,36 +52,106 @@ nav a.active {
     color: white;
 }
 
+
+
 /* Hero Section */
 .hero {
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
-                url('../assets/images/hero-bg.jpg');
-    background-size: cover;
-    background-position: center;
-    color: white;
+    background: linear-gradient(135deg, #ffe1e1, #fadadd 40%, #d9eefa 100%);
+    position: relative;
+    color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+    overflow: hidden;
 }
 
+/* Hero Content */
 .hero-content {
-    max-width: 800px;
+    position: relative;
+    z-index: 2;
+    max-width: 600px;
     padding: 20px;
 }
 
-.hero h1 {
-    font-size: 3em;
+/* Heading and Paragraph */
+.hero-content h1 {
+    font-size: 3rem;
+    font-weight: bold;
     margin-bottom: 20px;
+    color: #333;
 }
 
-.hero p {
-    font-size: 1.2em;
+.hero-content p {
+    font-size: 1.2rem;
     margin-bottom: 30px;
+    color: #555;
 }
+
+/* CTA Buttons */
+.cta-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.cta-buttons .btn {
+    padding: 12px 25px;
+    font-size: 1rem;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+/* Primary Button */
+.cta-buttons .btn-primary {
+    background-color: #ff6b6b;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cta-buttons .btn-primary:hover {
+    background-color: #ff4949;
+}
+
+/* Secondary Button */
+.cta-buttons .btn-secondary {
+    background-color: white;
+    color: #ff6b6b;
+    border: 2px solid #ff6b6b;
+}
+
+.cta-buttons .btn-secondary:hover {
+    background-color: #ff6b6b;
+    color: white;
+}
+
+/* Decorative Radial Element */
+.hero::before {
+    content: '';
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle, #ffdede, transparent);
+    border-radius: 50%;
+    top: -100px;
+    left: -100px;
+    z-index: 1;
+    opacity: 0.5;
+    filter: blur(50px);
+}
+
+
+
+
+
+
 
 /* Video Section */
+
+
 .video-section {
     padding: 80px 0;
     text-align: center;
